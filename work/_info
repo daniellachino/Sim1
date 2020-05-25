@@ -1,0 +1,277 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/MARTIN SHARVIT/Desktop/Sim1
+valu1bit
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1590444043
+!i10b 1
+!s100 Pjz0XMTUzRe?oIg9d^_FH1
+I^:@nKkB=iTgKa7Xln9;1B2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu1bit_sv_unit
+S1
+R0
+w1590444039
+8alu1bit.sv
+Falu1bit.sv
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1590444043.000000
+!s107 alu1bit.sv|
+!s90 -reportprogress|300|alu1bit.sv|
+!s101 -O0
+!i113 1
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+valu64bit
+R1
+Z5 !s110 1590445601
+!i10b 1
+!s100 Pogd_DJX]GfVgmTRz6`PY2
+Ic[DGSol^_z=5Gnheh`hHI1
+R2
+Z6 !s105 README_md_unit
+S1
+R0
+Z7 w1581917098
+8alu64bit.sv
+Falu64bit.sv
+L0 2
+R3
+r1
+!s85 0
+31
+Z8 !s108 1590445601.000000
+Z9 !s107 work|mux4_test.sv|mux4.sv|mux2.sv|libtest.sv|libcells|fas_test.sv|fas.sv|alu64bit_test.sv|alu64bit.sv|alu1bit.sv|README.md|
+Z10 !s90 -reportprogress|300|README.md|alu1bit.sv|alu64bit.sv|alu64bit_test.sv|fas.sv|fas_test.sv|libcells|libtest.sv|mux2.sv|mux4.sv|mux4_test.sv|work|
+!s101 -O0
+!i113 1
+R4
+valu64bit_test
+R1
+R5
+!i10b 1
+!s100 Ln471:1[n;jbTWB@_GA9Y3
+IW<HM:1EM_oHD8JVeQE@jO1
+R2
+R6
+S1
+R0
+R7
+8alu64bit_test.sv
+Falu64bit_test.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R4
+vfas
+R1
+!s110 1590446193
+!i10b 1
+!s100 =XoS11n@NUKF90V[Mg9]N1
+IJ2F[P0k`I^QMaijV<BmjO1
+R2
+!s105 fas_sv_unit
+S1
+R0
+w1590446172
+8fas.sv
+Ffas.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1590446193.000000
+!s107 fas.sv|
+!s90 -reportprogress|300|fas.sv|
+!s101 -O0
+!i113 1
+R4
+vfas_test
+R1
+!s110 1590446523
+!i10b 1
+!s100 z=hVh[kjki18QKVRI[nIj3
+IJoOOj^d7e:FzPBH`IMJ1D2
+R2
+!s105 fas_test_sv_unit
+S1
+R0
+w1590446521
+8fas_test.sv
+Ffas_test.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1590446522.000000
+!s107 fas_test.sv|
+!s90 -reportprogress|300|fas_test.sv|
+!s101 -O0
+!i113 1
+R4
+vlibtest
+R1
+!s110 1590445235
+!i10b 1
+!s100 Tn4lW_G^PfRe1LXLdL5RT2
+I;Ym3Z6?JOk_]ODC@2Rn?01
+R2
+!s105 libtest_sv_unit
+S1
+R0
+w1590445227
+8libtest.sv
+Flibtest.sv
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1590445235.000000
+!s107 libtest.sv|
+!s90 -reportprogress|300|libtest.sv|
+!s101 -O0
+!i113 1
+R4
+vmux4
+R1
+R5
+!i10b 1
+!s100 J8XoiGOP`3YXl>AVU_`]b2
+IJPbL6N`QFn:1Fkc9C74XL2
+R2
+R6
+S1
+R0
+Z11 w1581917100
+8mux4.sv
+Fmux4.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R4
+vmux4_test
+R1
+R5
+!i10b 1
+!s100 k7WemG=MnTzfh:Jjbb8Vm0
+IY8o<9FFJ6ge=P5^kiYW[l0
+R2
+R6
+S1
+R0
+R11
+8mux4_test.sv
+Fmux4_test.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R4
+vNOT
+R1
+Z12 !s110 1590445616
+!i10b 1
+!s100 j69lJkioMJQP[LPPIYA;83
+I^Rz;40jR>2JXN9C4=^_3h0
+R2
+!s105 NOT_sv_unit
+S1
+R0
+w1585133492
+8libcells/NOT.sv
+Flibcells/NOT.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1590445616.000000
+Z14 !s107 libcells/XOR2.sv|libcells/OR2.sv|libcells/NOT.sv|
+Z15 !s90 -reportprogress|300|libcells/NOT.sv|libcells/OR2.sv|libcells/XOR2.sv|
+!s101 -O0
+!i113 1
+R4
+n@n@o@t
+vOR2
+R1
+R12
+!i10b 1
+!s100 ]oENmd[f[?Z2VgbM04Vg_3
+IEM0bDnXUa529Nm4JNhl=P3
+R2
+!s105 OR2_sv_unit
+S1
+R0
+Z16 w1581917112
+8libcells/OR2.sv
+Flibcells/OR2.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+R14
+R15
+!s101 -O0
+!i113 1
+R4
+n@o@r2
+vXOR2
+R1
+R12
+!i10b 1
+!s100 YVXK0_L;8c?D0NMn>i=5S0
+I3j:feFgZb86YZ7cURokQK0
+R2
+!s105 XOR2_sv_unit
+S1
+R0
+R16
+8libcells/XOR2.sv
+Flibcells/XOR2.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+R14
+R15
+!s101 -O0
+!i113 1
+R4
+n@x@o@r2

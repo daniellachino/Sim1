@@ -10,7 +10,10 @@ module fas (
 
 // Put your code here
 // ------------------
-
+// genvar A,B,C,D,E,F,G,H,I = {3,1,4,9,6,8,7,4,4};
+logic aXb;
+XOR2 #(8,7) xor_inst (a,b,aXb);
+XOR2 #(8,7) xor_inst2 (aXb,cin,s);
 
 // End of your code
 
