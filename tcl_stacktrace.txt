@@ -1,0 +1,10 @@
+Tue May 26 11:18:12 +0300 2020
+Trace back: recursive call not supported, command "npages " called during command "regenerate -placement "
+    while executing
+"$W npages"
+    (procedure "NlvCommon::zoom_wheel" line 2)
+    invoked from within
+"NlvCommon::zoom_wheel [expr {600<0 ? 1 : -1}] [.main_pane.dataflow.interior.cs.body.pw.df.c component nlv] 336 388"
+    (command bound to event)
+  <2:C:/Modeltech_pe_edu_10.4a/win32pe_edu/tk8.5/bgerror.tcl:92: ::tkerror {recursive call not supported, command "npages " called during command "regenerate -placement "}
+  <1:eval:1: ::tk::dialog::error::bgerror {recursive call not supported, command "npages " called during command "regenerate -placement "}
