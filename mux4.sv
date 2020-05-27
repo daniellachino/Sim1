@@ -10,7 +10,26 @@ module mux4 (
 
 // Put your code here
 // ------------------
+logic M1_out,M2_out;
 
+mux2 M1(
+	.z(M1_out),
+	.d0(d0),
+	.d1(d1),
+	.sel(sel[0])
+);
+mux2 M2(
+	.z(M2_out),
+	.d0(d2),
+	.d1(d3),
+	.sel(sel[0])
+);
+mux2 M3(
+	.z(z),
+	.d0(M1_out),
+	.d1(M2_out),
+	.sel(sel[1])
+);
 
 // End of your code
 
