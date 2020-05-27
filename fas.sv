@@ -26,6 +26,11 @@ NOT #(1,4) not_ins4 (aXdORcNORb,aXdNORcNORb);
 OR2 #(9,6) or_ins3 (cnot,bnot,cnotORbnot);
 NOT #(1,4) not_ins5 (cnotORbnot,cANDb);
 OR2 #(9,6) final_or (cANDb,aXdNORcNORb,cout);
+    // logic c,d;
+    // assign c = cin;
+    // assign d = a_ns;
+    // assign s = ((a )^ b )^ c;
+    // assign cout = ~(~c|~b)|~(~(b|c)|(a^d));
 // End of your code
 
 endmodule
