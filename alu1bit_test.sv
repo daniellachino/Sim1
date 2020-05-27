@@ -25,7 +25,7 @@ initial begin
             begin
 
                 cin = k;
-                #50
+                #200
                 case(op)
                     0: if (s == ~(a|b)) error = 0; else error = 1;
                     1: if (s == a^b) error = 0 ; else error = 1;
