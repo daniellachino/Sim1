@@ -23,16 +23,9 @@ initial begin
         op = j;
             for (k =0; k <=1;++k ) 
             begin
-
                 cin = k;
                 #200
-                case(op)
-                    0: if (s == ~(a|b)) error = 0; else error = 1;
-                    1: if (s == a^b) error = 0 ; else error = 1;
-                    2: if (2*cout+s == a+b+cin); else error = 1;
-                    3: if (2*cout + s == a-b-cin) ; else error = 1;
-                endcase
-                
+                k = k; // used as #200 cannot be before end.
             end
         end
 
@@ -40,6 +33,36 @@ initial begin
 
     end
 end
+
+logic clk = 0;
+always begin
+    #20;
+    clk = ~clk;
+end
+
+always_ff @(clk) begin
+    case(op)
+                        0: if (s == ~(a|b)) error = 0; else error = 1;
+                        1: if (s == a^b) error = 0 ; else error = 1;
+                        2: if (2*cout+s ==a+b+cin) error = 0; else error = 1;
+                        3: case ({cin,b,a})
+                            'b000: if (cout == 0 && s==0) error = 0; else error =1;
+                            'b001: if (cout == 0 && s == 1) error = 0; else error =1;
+                            'b010: if (cout == 1 && s == 1) error = 0; else error =1;
+                            'b011: if (cout == 0 && s == 0) error = 0; else error =1;
+                            'b001: if (cout == 0 && s == 1) error = 0; else error =1;
+                             
+                        endcase
+                            
+
+                            if ((a-b-cin >=0) &&(2*cout+s == a-b-cin)) error =0;
+                            else if ((a-b-cin <0) && (2*cout+s == 4+(a-b-cin))) error = 0;
+                            else error =1;
+
+
+    endcase
+end
 // End of your code
+
 
 endmodule
