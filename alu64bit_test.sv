@@ -3,25 +3,35 @@ module alu64bit_test;
 
 // Put your code here
 // ------------------
-logic [63:0] a = 0;//{32{4'b1111}};
-logic [63:0] b = 0;//{32{4'b1111}};
-logic [1:0] op = 3;
-logic cin = 0;
-logic cout;
-logic [63:0] s;
+	logic [63:0] a;
+	logic [63:0] b;
+	logic [63:0] cin;
+	logic [1:0] op;
+	logic [63:0] s;
+	logic cout;
+	
+	alu64bit uut(
+		.cout(cout),
+		.s(s),
+		.op(op),
+		.cin(cin),
+		.a(a),
+		.b(b)
+	);
+	
 
-
-alu64bit UUT(.a(a),.b(b),.cin(cin),.op(op),.cout(cout),.s(s));
-
-initial begin
-    cin = 0;
-    #2000
-    cin = 1;
-    #2000
-    cin = 0;
-    $stop;
-end
-
-//End of your code
+	initial begin
+	
+		a=64'b0;
+		b=64'b0;
+		cin=1'b0;
+		op=2'b11;
+		
+		#5000
+		cin=1'b1;
+		#5000;
+	end
+	
+// End of your code
 
 endmodule
