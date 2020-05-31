@@ -19,7 +19,7 @@ initial begin
     cin = 1;
     #2000
     cin = 0;
-    $stop(2000);
+    $stop;
 end
 
 //End of your code
