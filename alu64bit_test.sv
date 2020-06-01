@@ -15,11 +15,9 @@ alu64bit UUT(.a(a),.b(b),.cin(cin),.op(op),.cout(cout),.s(s));
 
 initial begin
     cin = 0;
-    #2000
+    #2000;
     cin = 1;
-    #2000
-    cin = 0;
-    $stop;
+    #2000;
 end
 
 //End of your code
