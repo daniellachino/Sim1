@@ -19,7 +19,6 @@ initial begin
     #50;
     cin= 0;
     #50;
-    $stop;
 
 end
 
